@@ -1,6 +1,6 @@
 # npmtest-co
 
-#### test coverage for  [co (v4.6.0)](https://github.com/tj/co#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-co.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-co) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-co.svg)](https://travis-ci.org/npmtest/node-npmtest-co)
+#### basic test coverage for  [co (v4.6.0)](https://github.com/tj/co#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-co.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-co) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-co.svg)](https://travis-ci.org/npmtest/node-npmtest-co)
 
 #### generator async control flow goodness
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-co/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-co/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-co/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-co/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-co/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-co/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-co/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-co/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-co/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-co/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-co/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-co/build/coverage.html/index.html)
 
@@ -92,7 +92,8 @@
         "test-cov": "node --harmony node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --reporter dot",
         "test-travis": "node --harmony node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- --reporter dot"
     },
-    "version": "4.6.0"
+    "version": "4.6.0",
+    "bin": {}
 }
 ```
 
